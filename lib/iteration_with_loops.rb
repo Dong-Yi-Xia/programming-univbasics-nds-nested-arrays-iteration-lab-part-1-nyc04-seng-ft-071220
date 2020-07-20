@@ -4,7 +4,7 @@ def find_even_values(src)
   # Output all even values in each nested array
   even = []
   src.each do |array|
-    array.each{|x| x.even? ? even.push(x)}
+    array.each{|x| x.even? ? even.push(x) : x}
   end
   even
 
