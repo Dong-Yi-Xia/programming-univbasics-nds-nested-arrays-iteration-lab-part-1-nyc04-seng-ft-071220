@@ -6,6 +6,6 @@ def find_even_values(src)
   src.each do |array|
     array.each{|x| x.even? ? even.push(x) : x}
   end
-  p even
+  return even
 
 end
